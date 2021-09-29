@@ -2,4 +2,13 @@
 const string = "/users/download/index.html";
 const test = "html";
 
-console.log(string.includes(test));
+function isHtml(string){
+  return string.includes(test);
+
+}
+
+
+
+
+
+console.log(isHtml(string));
